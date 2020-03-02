@@ -35,7 +35,15 @@ One catch is that Cloudflare currently gives alt-svc headers in response to fetc
 
 Once we get the infrastructure set up, we would be smart to run a second one which is just wget or curl or lynx or something, i.e. which doesn't behave like Tor Browser, in order to be able to track the difference between how Cloudflare responds to Tor Browser vs other browsers.
 
-I imagine that Cloudflare should be internally tracking how they're handling Tor requests, but having a public tracker (a) gives the data to everybody, and (b) helps Cloudflare have a second opinion in case their internal data diverges from the public version.
+# Getting Started
+
+As this is a new project, in order to demonstrate your skills and familiarise yourself with this project you may want to:
+
+1. Set up the required infrastructure for this project e.g by setting up a very simple static webpage to be fronted by Cloudflare.
+2. Familiarise yourself and start experimenting with various web clients to fetch pages via Tor, bearing in mind you may need to adapt them to your needs if they are lacking the required functionality.
+3. Read the comments in ticket [#33010](https://trac.torproject.org/projects/tor/ticket/33010) for more ideas
+
+# Resources
 
 The Berkeley ICSI group did research that included this sort of check:
 ​https://www.freehaven.net/anonbib/#differential-ndss2016
