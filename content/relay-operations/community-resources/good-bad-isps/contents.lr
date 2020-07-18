@@ -206,6 +206,11 @@ For network diversity and stronger anonymity, you should avoid providers and cou
 | [IQ PL](http://www.iq.pl/) | - | Yes | Yes | Yes | They allow running exit node on collocated dedicated server |  - |
 | [Slask DataCenter](https://sldc.eu/) | - | Yes | Yes | Yes | - | 21/02/2018 |
 
+### Panama
+
+| **Company/ISP** | **ASN** | **Bridges** | **Relay** | **Exit** | **Comments** | **Last Updated** |
+|-------------------------|-------------|-----------------|--------------|-------------|---------------------|------------------------|
+| [Bitlaunch.io](http://bitlaunch.io/) | - | Yes | Yes | Yes | Allows exit nodes but asks to be confirmed to help deal with abuse complaints. Purposfully malicious activities aren't allowed  | 18/06/2020 |
 
 ### Romania
 
